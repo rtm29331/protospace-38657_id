@@ -46,7 +46,7 @@ a {
   width: 1024px;
   margin: 0 auto;
 }
-.nav {
+.na
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -269,13 +269,13 @@ a {
 /* フッター */
 
 .footer {
-  background-color: #999;
-  padding: 10px 0;
+  background-color: rgb(26, 245, 245);
+  padding: 7px 0;
 }
 .copyright {
   text-align: center;
-  color: #fff;
-  font-size: 10px;
+  color: rgb(4, 4, 4);
+  font-size: 15px;
 }
 
 /* タブレット対応 */
