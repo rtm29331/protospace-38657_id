@@ -6,8 +6,6 @@
 | email              | string | null: false |false    |
 | encrypted_password | string | null: false |false    |
 | profile            | text   | null: false |false    |
-| occupation         | text   | null: false |false    |
-| position           | text   | null: false |false    |
 
 ### Association
 
