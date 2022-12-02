@@ -18,6 +18,8 @@ const $window = window;
 const $doc = document;
 const $question = $doc.getElementById('js-question');
 const $buttons = $doc.querySelectorAll('.btn');
+const form = document.getElementById("form");
+
 
 const quizLen = quiz.length;
 let quizCount = 0;
