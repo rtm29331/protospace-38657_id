@@ -1,52 +1,34 @@
-<!doctype html>
-<html class="no-js" lang="">
-
-<head>
-  <meta charset="utf-8">
-  <title></title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
-  
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  
-  <meta name="theme-color" content="#fafafa">
-</head>
-
-<body>
-  
-  <div class="container">
-    
-    <div class="jumbotron mt-5">
-      <div class="d-flex justify-content-center">
-        <div id="js-question" class="alert alert-primary" role="alert">
-          A simple primary alert—check it out!
-        </div>
-      </div>
-      
-      <div id="js-items" class="d-flex justify-content-center">
-        <div class="m-2">
-          <button type="button" id="js-btn-1" class="btn btn-primary">Primary</button>
-        </div>
-        <div class="m-2">
-          <button type="button" id="js-btn-2" class="btn btn-primary">Primary</button>
-        </div>
-        <div class="m-2">
-          <button type="button" id="js-btn-3" class="btn btn-primary">Primary</button>
-        </div>
-        <div class="m-2">
-          <button type="button" id="js-btn-4" class="btn btn-primary">Primary</button>
-        </div>
-      </div>
+<main class="quiz outer-block">
+  <div class="inner-block">
+    <div class="quiz-content">
+      <div class="quiz-question-number"></div>
+      <h2 class="quiz-question"></h2>
+      <ul class="quiz-answer">
+        <li>
+          <label class="quiz-button button01">
+            <input name="radio" type="radio" value="">
+            <span class="quiz-text01"></span>
+          </label>
+        </li>
+        <li>
+          <label class="quiz-button button02">
+            <input name="radio" type="radio" value="">
+            <span class="quiz-text02"></span>
+          </label>
+        </li>
+        <li>
+          <label class="quiz-button button03">
+            <input name="radio" type="radio" value="">
+            <span class="quiz-text03"></span>
+          </label>
+        </li>
+        <li>
+          <label class="quiz-button button04">
+            <input name="radio" type="radio" value="">
+            <span class="quiz-text04"></span>
+          </label>
+        </li>
+      </ul>
     </div>
   </div>
-  
-  <script type="text/javascript" src="app.js"></script>
-</body>
-    <div class="card__wrapper">
-      <%= render partial: 'prototype', collection: @prototypes %>
-    </div>
-</html>
+</main>
